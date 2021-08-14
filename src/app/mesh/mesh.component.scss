@@ -1,0 +1,76 @@
+// .ball_wrap {
+//   position: relative;
+//   margin: 150px;
+//   width: 90px;
+// }
+
+// .green_ball {
+//   background: #00c762;
+//   height: 50px;
+//   width: 50px;
+//   border-radius: 50%;
+//   border: 3px solid #ccc;
+//   position: absolute;
+// }
+
+// .blue_ball {
+//   background: #2f9bc1;
+//   height: 80px;
+//   width: 80px;
+//   border-radius: 50%;
+//   border: 3px solid #ccc;
+// }
+
+// .ball_wrap div:nth-of-type(2) {
+//   top: 20px;
+//   left: -100px;
+// }
+
+// .ball_wrap div:nth-of-type(2):after {
+//   content: "";
+//   display: block;
+//   border-bottom: 1px solid rgb(173, 39, 39);
+//   position: absolute;
+//   width: 50px;
+//   right: -50px;
+//   top: 50%;
+// }
+
+// .ball_wrap div:nth-of-type(3) {
+//   top: 20px;
+//   right: -100px;
+// }
+
+// .ball_wrap div:nth-of-type(3):after {
+//   content: "";
+//   display: block;
+//   border-bottom: 1px solid rgb(212, 204, 204);
+//   position: absolute;
+//   width: 50px;
+//   left: -52px;
+//   top: 50%;
+// }
+
+// .ball_wrap div:nth-of-type(4) {
+//   right: 20px;
+//   bottom: -100px;
+// }
+
+.parent {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  background-color: sandybrown;
+  position: absolute;
+}
+.child {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  background-color: rgb(144, 158, 238);
+  position: relative;
+  left: 160px;
+  top: 50px;
+}

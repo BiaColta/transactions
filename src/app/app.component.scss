@@ -1,5 +1,15 @@
 ion-app {
   background-color: #0e1939;
+  z-index: 0;
+
+  // .mesh-content {
+  //   z-index: 10;
+  //   position: absolute;
+  // }
+  app-mesh {
+    position: absolute;
+    z-index: 10;
+  }
 
   .title {
     padding: 26%;
